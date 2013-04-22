@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		955F39CD1724B7BF00D0E9D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955F39CC1724B7BF00D0E9D4 /* UIKit.framework */; };
+		955F39CF1724B7BF00D0E9D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955F39CE1724B7BF00D0E9D4 /* Foundation.framework */; };
+		955F39D11724B7BF00D0E9D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955F39D01724B7BF00D0E9D4 /* CoreGraphics.framework */; };
+		955F39D71724B7C000D0E9D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 955F39D51724B7C000D0E9D4 /* InfoPlist.strings */; };
+		955F39D91724B7C000D0E9D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 955F39D81724B7C000D0E9D4 /* main.m */; };
+		955F39DD1724B7C000D0E9D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 955F39DC1724B7C000D0E9D4 /* AppDelegate.m */; };
+		955F39E01724B7C000D0E9D4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955F39DE1724B7C000D0E9D4 /* MainStoryboard_iPhone.storyboard */; };
+		955F39E31724B7C000D0E9D4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955F39E11724B7C000D0E9D4 /* MainStoryboard_iPad.storyboard */; };
+		955F39E61724B7C000D0E9D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 955F39E51724B7C000D0E9D4 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		955F39C81724B7BF00D0E9D4 /* Hackopter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackopter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		955F39CC1724B7BF00D0E9D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		955F39CE1724B7BF00D0E9D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		955F39D01724B7BF00D0E9D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		955F39D41724B7C000D0E9D4 /* Hackopter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hackopter-Info.plist"; sourceTree = "<group>"; };
+		955F39D61724B7C000D0E9D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		955F39D81724B7C000D0E9D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		955F39DA1724B7C000D0E9D4 /* Hackopter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hackopter-Prefix.pch"; sourceTree = "<group>"; };
+		955F39DB1724B7C000D0E9D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		955F39DC1724B7C000D0E9D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		955F39DF1724B7C000D0E9D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		955F39E21724B7C000D0E9D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		955F39E41724B7C000D0E9D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		955F39E51724B7C000D0E9D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		955F39C51724B7BF00D0E9D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955F39CD1724B7BF00D0E9D4 /* UIKit.framework in Frameworks */,
+				955F39CF1724B7BF00D0E9D4 /* Foundation.framework in Frameworks */,
+				955F39D11724B7BF00D0E9D4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		955F39BD1724B7BF00D0E9D4 = {
+			isa = PBXGroup;
+			children = (
+				955F39D21724B7C000D0E9D4 /* Hackopter */,
+				955F39CB1724B7BF00D0E9D4 /* Frameworks */,
+				955F39C91724B7BF00D0E9D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		955F39C91724B7BF00D0E9D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				955F39C81724B7BF00D0E9D4 /* Hackopter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		955F39CB1724B7BF00D0E9D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				955F39CC1724B7BF00D0E9D4 /* UIKit.framework */,
+				955F39CE1724B7BF00D0E9D4 /* Foundation.framework */,
+				955F39D01724B7BF00D0E9D4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		955F39D21724B7C000D0E9D4 /* Hackopter */ = {
+			isa = PBXGroup;
+			children = (
+				955F39DB1724B7C000D0E9D4 /* AppDelegate.h */,
+				955F39DC1724B7C000D0E9D4 /* AppDelegate.m */,
+				955F39DE1724B7C000D0E9D4 /* MainStoryboard_iPhone.storyboard */,
+				955F39E11724B7C000D0E9D4 /* MainStoryboard_iPad.storyboard */,
+				955F39E41724B7C000D0E9D4 /* ViewController.h */,
+				955F39E51724B7C000D0E9D4 /* ViewController.m */,
+				955F39D31724B7C000D0E9D4 /* Supporting Files */,
+			);
+			path = Hackopter;
+			sourceTree = "<group>";
+		};
+		955F39D31724B7C000D0E9D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				955F39D41724B7C000D0E9D4 /* Hackopter-Info.plist */,
+				955F39D51724B7C000D0E9D4 /* InfoPlist.strings */,
+				955F39D81724B7C000D0E9D4 /* main.m */,
+				955F39DA1724B7C000D0E9D4 /* Hackopter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		955F39C71724B7BF00D0E9D4 /* Hackopter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955F39E91724B7C000D0E9D4 /* Build configuration list for PBXNativeTarget "Hackopter" */;
+			buildPhases = (
+				955F39C41724B7BF00D0E9D4 /* Sources */,
+				955F39C51724B7BF00D0E9D4 /* Frameworks */,
+				955F39C61724B7BF00D0E9D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hackopter;
+			productName = Hackopter;
+			productReference = 955F39C81724B7BF00D0E9D4 /* Hackopter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		955F39BF1724B7BF00D0E9D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 955F39C21724B7BF00D0E9D4 /* Build configuration list for PBXProject "Hackopter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 955F39BD1724B7BF00D0E9D4;
+			productRefGroup = 955F39C91724B7BF00D0E9D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				955F39C71724B7BF00D0E9D4 /* Hackopter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		955F39C61724B7BF00D0E9D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955F39D71724B7C000D0E9D4 /* InfoPlist.strings in Resources */,
+				955F39E01724B7C000D0E9D4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				955F39E31724B7C000D0E9D4 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		955F39C41724B7BF00D0E9D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955F39D91724B7C000D0E9D4 /* main.m in Sources */,
+				955F39DD1724B7C000D0E9D4 /* AppDelegate.m in Sources */,
+				955F39E61724B7C000D0E9D4 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		955F39D51724B7C000D0E9D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				955F39D61724B7C000D0E9D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		955F39DE1724B7C000D0E9D4 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				955F39DF1724B7C000D0E9D4 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		955F39E11724B7C000D0E9D4 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				955F39E21724B7C000D0E9D4 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		955F39E71724B7C000D0E9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		955F39E81724B7C000D0E9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		955F39EA1724B7C000D0E9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hackopter/Hackopter-Prefix.pch";
+				INFOPLIST_FILE = "Hackopter/Hackopter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		955F39EB1724B7C000D0E9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hackopter/Hackopter-Prefix.pch";
+				INFOPLIST_FILE = "Hackopter/Hackopter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		955F39C21724B7BF00D0E9D4 /* Build configuration list for PBXProject "Hackopter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955F39E71724B7C000D0E9D4 /* Debug */,
+				955F39E81724B7C000D0E9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955F39E91724B7C000D0E9D4 /* Build configuration list for PBXNativeTarget "Hackopter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955F39EA1724B7C000D0E9D4 /* Debug */,
+				955F39EB1724B7C000D0E9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 955F39BF1724B7BF00D0E9D4 /* Project object */;
+}
