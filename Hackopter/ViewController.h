@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UISwitch *powerSwitch;
+
+- (IBAction)powerValueChanged:(id)sender;
+- (IBAction)play:(id)sender;
+
 @end

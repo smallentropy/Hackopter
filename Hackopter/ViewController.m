@@ -7,58 +7,48 @@
 //
 
 #import "ViewController.h"
+#import "HackopterSteeringManager.h"
+
+@interface ViewController ()
+
+@property (nonatomic, strong) HackopterSteeringManager *steeringManager;
+
+@end
 
 @implementation ViewController
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
-}
+@synthesize steeringManager = _steeringManager;
+@synthesize powerSwitch;
 
-#pragma mark - View lifecycle
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-    } else {
-        return YES;
+- (id)initWithCoder:(NSCoder *)aDecoder {
+    if (self = [super initWithCoder:aDecoder]) {
+        _steeringManager = [[HackopterSteeringManager alloc] init];
     }
+    return self;
+}
+
+#pragma mark - Target Action Methods
+- (void)powerValueChanged:(UISwitch *)sender {
+    [self.steeringManager powerOn:sender.on];
+}
+
+- (void)play:(id)sender {
+    [self.steeringManager test];
+}
+
+#pragma mark - UI Initialization Methods
+
+- (void)setupUI {
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:kBackgroundImage]];
+    self.powerSwitch.onTintColor = [UIColor redColor];
+}
+
+- (void)viewDidLoad {
+    [self setupUI];
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+    return YES;
 }
 
 @end

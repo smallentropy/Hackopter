@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9517C59D17335E3800AD8465 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9517C59C17335E3800AD8465 /* AVFoundation.framework */; };
+		9543ADFF1724BC3C0091E1A9 /* Photek-Avalanche.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9543ADFE1724BC3C0091E1A9 /* Photek-Avalanche.mp3 */; };
 		955F39CD1724B7BF00D0E9D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955F39CC1724B7BF00D0E9D4 /* UIKit.framework */; };
 		955F39CF1724B7BF00D0E9D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955F39CE1724B7BF00D0E9D4 /* Foundation.framework */; };
 		955F39D11724B7BF00D0E9D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955F39D01724B7BF00D0E9D4 /* CoreGraphics.framework */; };
@@ -16,9 +18,40 @@
 		955F39E01724B7C000D0E9D4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955F39DE1724B7C000D0E9D4 /* MainStoryboard_iPhone.storyboard */; };
 		955F39E31724B7C000D0E9D4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955F39E11724B7C000D0E9D4 /* MainStoryboard_iPad.storyboard */; };
 		955F39E61724B7C000D0E9D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 955F39E51724B7C000D0E9D4 /* ViewController.m */; };
+		958752FB172CB8770098A92D /* HackopterSteeringManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 958752FA172CB8770098A92D /* HackopterSteeringManager.m */; };
+		95875314172CB9550098A92D /* 100us_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 958752FD172CB9550098A92D /* 100us_2.wav */; };
+		95875315172CB9550098A92D /* 100us.wav in Resources */ = {isa = PBXBuildFile; fileRef = 958752FE172CB9550098A92D /* 100us.wav */; };
+		95875316172CB9550098A92D /* 180us.wav in Resources */ = {isa = PBXBuildFile; fileRef = 958752FF172CB9550098A92D /* 180us.wav */; };
+		95875317172CB9550098A92D /* 260us.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95875300172CB9550098A92D /* 260us.wav */; };
+		95875318172CB9550098A92D /* 330us.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95875301172CB9550098A92D /* 330us.wav */; };
+		95875319172CB9550098A92D /* 400us_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95875302172CB9550098A92D /* 400us_2.wav */; };
+		9587531A172CB9550098A92D /* 400us.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95875303172CB9550098A92D /* 400us.wav */; };
+		9587531B172CB9550098A92D /* 410us.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95875304172CB9550098A92D /* 410us.wav */; };
+		9587531C172CB9550098A92D /* 430us.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95875305172CB9550098A92D /* 430us.wav */; };
+		9587531D172CB9550098A92D /* 491.25us.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95875306172CB9550098A92D /* 491.25us.wav */; };
+		9587531E172CB9550098A92D /* 630us.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95875307172CB9550098A92D /* 630us.wav */; };
+		9587531F172CB9550098A92D /* 730us.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95875308172CB9550098A92D /* 730us.wav */; };
+		95875320172CB9550098A92D /* 750us.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95875309172CB9550098A92D /* 750us.wav */; };
+		95875321172CB9550098A92D /* 860us.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9587530A172CB9550098A92D /* 860us.wav */; };
+		95875322172CB9550098A92D /* 1010us.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9587530B172CB9550098A92D /* 1010us.wav */; };
+		95875323172CB9550098A92D /* 2800us_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9587530C172CB9550098A92D /* 2800us_2.wav */; };
+		95875324172CB9550098A92D /* 2800us.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9587530D172CB9550098A92D /* 2800us.wav */; };
+		95875325172CB9550098A92D /* High200us.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9587530E172CB9550098A92D /* High200us.wav */; };
+		95875326172CB9550098A92D /* L_High1 2.3ms.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9587530F172CB9550098A92D /* L_High1 2.3ms.wav */; };
+		95875327172CB9550098A92D /* L_instruct 3.2ms.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95875310172CB9550098A92D /* L_instruct 3.2ms.wav */; };
+		95875328172CB9550098A92D /* L_low0 1ms.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95875311172CB9550098A92D /* L_low0 1ms.wav */; };
+		95875329172CB9550098A92D /* L_space 1ms.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95875312172CB9550098A92D /* L_space 1ms.wav */; };
+		9587532A172CB9550098A92D /* R_powerOn 1ms 21k.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95875313172CB9550098A92D /* R_powerOn 1ms 21k.wav */; };
+		9587532D172CB9D60098A92D /* HackopterSoundEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9587532C172CB9D60098A92D /* HackopterSoundEmitter.m */; };
+		958D5C211733778800432332 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9595F5BE173343A0009D0BCA /* MediaPlayer.framework */; };
+		9595F5B117333C1A009D0BCA /* NSTexturedFullScreenBackgroundColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 9595F5B017333C1A009D0BCA /* NSTexturedFullScreenBackgroundColor.png */; };
+		9595F5B417333D8B009D0BCA /* HackopterConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9595F5B317333D8B009D0BCA /* HackopterConstants.m */; };
+		9595F5BD17334257009D0BCA /* Power.png in Resources */ = {isa = PBXBuildFile; fileRef = 9595F5BC17334257009D0BCA /* Power.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9517C59C17335E3800AD8465 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9543ADFE1724BC3C0091E1A9 /* Photek-Avalanche.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Photek-Avalanche.mp3"; sourceTree = "<group>"; };
 		955F39C81724B7BF00D0E9D4 /* Hackopter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackopter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		955F39CC1724B7BF00D0E9D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		955F39CE1724B7BF00D0E9D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -33,6 +66,38 @@
 		955F39E21724B7C000D0E9D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		955F39E41724B7C000D0E9D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		955F39E51724B7C000D0E9D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		958752F9172CB8770098A92D /* HackopterSteeringManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HackopterSteeringManager.h; sourceTree = "<group>"; };
+		958752FA172CB8770098A92D /* HackopterSteeringManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HackopterSteeringManager.m; sourceTree = "<group>"; };
+		958752FD172CB9550098A92D /* 100us_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 100us_2.wav; sourceTree = "<group>"; };
+		958752FE172CB9550098A92D /* 100us.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 100us.wav; sourceTree = "<group>"; };
+		958752FF172CB9550098A92D /* 180us.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 180us.wav; sourceTree = "<group>"; };
+		95875300172CB9550098A92D /* 260us.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 260us.wav; sourceTree = "<group>"; };
+		95875301172CB9550098A92D /* 330us.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 330us.wav; sourceTree = "<group>"; };
+		95875302172CB9550098A92D /* 400us_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 400us_2.wav; sourceTree = "<group>"; };
+		95875303172CB9550098A92D /* 400us.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 400us.wav; sourceTree = "<group>"; };
+		95875304172CB9550098A92D /* 410us.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 410us.wav; sourceTree = "<group>"; };
+		95875305172CB9550098A92D /* 430us.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 430us.wav; sourceTree = "<group>"; };
+		95875306172CB9550098A92D /* 491.25us.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 491.25us.wav; sourceTree = "<group>"; };
+		95875307172CB9550098A92D /* 630us.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 630us.wav; sourceTree = "<group>"; };
+		95875308172CB9550098A92D /* 730us.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 730us.wav; sourceTree = "<group>"; };
+		95875309172CB9550098A92D /* 750us.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 750us.wav; sourceTree = "<group>"; };
+		9587530A172CB9550098A92D /* 860us.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 860us.wav; sourceTree = "<group>"; };
+		9587530B172CB9550098A92D /* 1010us.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1010us.wav; sourceTree = "<group>"; };
+		9587530C172CB9550098A92D /* 2800us_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2800us_2.wav; sourceTree = "<group>"; };
+		9587530D172CB9550098A92D /* 2800us.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2800us.wav; sourceTree = "<group>"; };
+		9587530E172CB9550098A92D /* High200us.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = High200us.wav; sourceTree = "<group>"; };
+		9587530F172CB9550098A92D /* L_High1 2.3ms.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "L_High1 2.3ms.wav"; sourceTree = "<group>"; };
+		95875310172CB9550098A92D /* L_instruct 3.2ms.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "L_instruct 3.2ms.wav"; sourceTree = "<group>"; };
+		95875311172CB9550098A92D /* L_low0 1ms.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "L_low0 1ms.wav"; sourceTree = "<group>"; };
+		95875312172CB9550098A92D /* L_space 1ms.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "L_space 1ms.wav"; sourceTree = "<group>"; };
+		95875313172CB9550098A92D /* R_powerOn 1ms 21k.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "R_powerOn 1ms 21k.wav"; sourceTree = "<group>"; };
+		9587532B172CB9D60098A92D /* HackopterSoundEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HackopterSoundEmitter.h; sourceTree = "<group>"; };
+		9587532C172CB9D60098A92D /* HackopterSoundEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HackopterSoundEmitter.m; sourceTree = "<group>"; };
+		9595F5B017333C1A009D0BCA /* NSTexturedFullScreenBackgroundColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NSTexturedFullScreenBackgroundColor.png; sourceTree = "<group>"; };
+		9595F5B217333D8B009D0BCA /* HackopterConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HackopterConstants.h; sourceTree = "<group>"; };
+		9595F5B317333D8B009D0BCA /* HackopterConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HackopterConstants.m; sourceTree = "<group>"; };
+		9595F5BC17334257009D0BCA /* Power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Power.png; sourceTree = "<group>"; };
+		9595F5BE173343A0009D0BCA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +105,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				958D5C211733778800432332 /* MediaPlayer.framework in Frameworks */,
+				9517C59D17335E3800AD8465 /* AVFoundation.framework in Frameworks */,
 				955F39CD1724B7BF00D0E9D4 /* UIKit.framework in Frameworks */,
 				955F39CF1724B7BF00D0E9D4 /* Foundation.framework in Frameworks */,
 				955F39D11724B7BF00D0E9D4 /* CoreGraphics.framework in Frameworks */,
@@ -49,9 +116,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9543ADFA1724B9A30091E1A9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9595F5AE17333C08009D0BCA /* Images */,
+				955F39DE1724B7C000D0E9D4 /* MainStoryboard_iPhone.storyboard */,
+				955F39E11724B7C000D0E9D4 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 		955F39BD1724B7BF00D0E9D4 = {
 			isa = PBXGroup;
 			children = (
+				9517C59C17335E3800AD8465 /* AVFoundation.framework */,
 				955F39D21724B7C000D0E9D4 /* Hackopter */,
 				955F39CB1724B7BF00D0E9D4 /* Frameworks */,
 				955F39C91724B7BF00D0E9D4 /* Products */,
@@ -69,6 +147,7 @@
 		955F39CB1724B7BF00D0E9D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9595F5BE173343A0009D0BCA /* MediaPlayer.framework */,
 				955F39CC1724B7BF00D0E9D4 /* UIKit.framework */,
 				955F39CE1724B7BF00D0E9D4 /* Foundation.framework */,
 				955F39D01724B7BF00D0E9D4 /* CoreGraphics.framework */,
@@ -79,12 +158,14 @@
 		955F39D21724B7C000D0E9D4 /* Hackopter */ = {
 			isa = PBXGroup;
 			children = (
+				9595F5B217333D8B009D0BCA /* HackopterConstants.h */,
+				9595F5B317333D8B009D0BCA /* HackopterConstants.m */,
+				958752F7172CB83F0098A92D /* Steering */,
 				955F39DB1724B7C000D0E9D4 /* AppDelegate.h */,
 				955F39DC1724B7C000D0E9D4 /* AppDelegate.m */,
-				955F39DE1724B7C000D0E9D4 /* MainStoryboard_iPhone.storyboard */,
-				955F39E11724B7C000D0E9D4 /* MainStoryboard_iPad.storyboard */,
 				955F39E41724B7C000D0E9D4 /* ViewController.h */,
 				955F39E51724B7C000D0E9D4 /* ViewController.m */,
+				9543ADFA1724B9A30091E1A9 /* UI */,
 				955F39D31724B7C000D0E9D4 /* Supporting Files */,
 			);
 			path = Hackopter;
@@ -93,12 +174,64 @@
 		955F39D31724B7C000D0E9D4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				958752FC172CB9430098A92D /* Sound Files */,
+				9543ADFE1724BC3C0091E1A9 /* Photek-Avalanche.mp3 */,
 				955F39D41724B7C000D0E9D4 /* Hackopter-Info.plist */,
 				955F39D51724B7C000D0E9D4 /* InfoPlist.strings */,
 				955F39D81724B7C000D0E9D4 /* main.m */,
 				955F39DA1724B7C000D0E9D4 /* Hackopter-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		958752F7172CB83F0098A92D /* Steering */ = {
+			isa = PBXGroup;
+			children = (
+				958752F9172CB8770098A92D /* HackopterSteeringManager.h */,
+				958752FA172CB8770098A92D /* HackopterSteeringManager.m */,
+				9587532B172CB9D60098A92D /* HackopterSoundEmitter.h */,
+				9587532C172CB9D60098A92D /* HackopterSoundEmitter.m */,
+			);
+			name = Steering;
+			sourceTree = "<group>";
+		};
+		958752FC172CB9430098A92D /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				958752FD172CB9550098A92D /* 100us_2.wav */,
+				958752FE172CB9550098A92D /* 100us.wav */,
+				958752FF172CB9550098A92D /* 180us.wav */,
+				95875300172CB9550098A92D /* 260us.wav */,
+				95875301172CB9550098A92D /* 330us.wav */,
+				95875302172CB9550098A92D /* 400us_2.wav */,
+				95875303172CB9550098A92D /* 400us.wav */,
+				95875304172CB9550098A92D /* 410us.wav */,
+				95875305172CB9550098A92D /* 430us.wav */,
+				95875306172CB9550098A92D /* 491.25us.wav */,
+				95875307172CB9550098A92D /* 630us.wav */,
+				95875308172CB9550098A92D /* 730us.wav */,
+				95875309172CB9550098A92D /* 750us.wav */,
+				9587530A172CB9550098A92D /* 860us.wav */,
+				9587530B172CB9550098A92D /* 1010us.wav */,
+				9587530C172CB9550098A92D /* 2800us_2.wav */,
+				9587530D172CB9550098A92D /* 2800us.wav */,
+				9587530E172CB9550098A92D /* High200us.wav */,
+				9587530F172CB9550098A92D /* L_High1 2.3ms.wav */,
+				95875310172CB9550098A92D /* L_instruct 3.2ms.wav */,
+				95875311172CB9550098A92D /* L_low0 1ms.wav */,
+				95875312172CB9550098A92D /* L_space 1ms.wav */,
+				95875313172CB9550098A92D /* R_powerOn 1ms 21k.wav */,
+			);
+			name = "Sound Files";
+			sourceTree = "<group>";
+		};
+		9595F5AE17333C08009D0BCA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9595F5B017333C1A009D0BCA /* NSTexturedFullScreenBackgroundColor.png */,
+				9595F5BC17334257009D0BCA /* Power.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +287,32 @@
 				955F39D71724B7C000D0E9D4 /* InfoPlist.strings in Resources */,
 				955F39E01724B7C000D0E9D4 /* MainStoryboard_iPhone.storyboard in Resources */,
 				955F39E31724B7C000D0E9D4 /* MainStoryboard_iPad.storyboard in Resources */,
+				9543ADFF1724BC3C0091E1A9 /* Photek-Avalanche.mp3 in Resources */,
+				95875314172CB9550098A92D /* 100us_2.wav in Resources */,
+				95875315172CB9550098A92D /* 100us.wav in Resources */,
+				95875316172CB9550098A92D /* 180us.wav in Resources */,
+				95875317172CB9550098A92D /* 260us.wav in Resources */,
+				95875318172CB9550098A92D /* 330us.wav in Resources */,
+				95875319172CB9550098A92D /* 400us_2.wav in Resources */,
+				9587531A172CB9550098A92D /* 400us.wav in Resources */,
+				9587531B172CB9550098A92D /* 410us.wav in Resources */,
+				9587531C172CB9550098A92D /* 430us.wav in Resources */,
+				9587531D172CB9550098A92D /* 491.25us.wav in Resources */,
+				9587531E172CB9550098A92D /* 630us.wav in Resources */,
+				9587531F172CB9550098A92D /* 730us.wav in Resources */,
+				95875320172CB9550098A92D /* 750us.wav in Resources */,
+				95875321172CB9550098A92D /* 860us.wav in Resources */,
+				95875322172CB9550098A92D /* 1010us.wav in Resources */,
+				95875323172CB9550098A92D /* 2800us_2.wav in Resources */,
+				95875324172CB9550098A92D /* 2800us.wav in Resources */,
+				95875325172CB9550098A92D /* High200us.wav in Resources */,
+				95875326172CB9550098A92D /* L_High1 2.3ms.wav in Resources */,
+				95875327172CB9550098A92D /* L_instruct 3.2ms.wav in Resources */,
+				95875328172CB9550098A92D /* L_low0 1ms.wav in Resources */,
+				95875329172CB9550098A92D /* L_space 1ms.wav in Resources */,
+				9587532A172CB9550098A92D /* R_powerOn 1ms 21k.wav in Resources */,
+				9595F5B117333C1A009D0BCA /* NSTexturedFullScreenBackgroundColor.png in Resources */,
+				9595F5BD17334257009D0BCA /* Power.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +326,9 @@
 				955F39D91724B7C000D0E9D4 /* main.m in Sources */,
 				955F39DD1724B7C000D0E9D4 /* AppDelegate.m in Sources */,
 				955F39E61724B7C000D0E9D4 /* ViewController.m in Sources */,
+				958752FB172CB8770098A92D /* HackopterSteeringManager.m in Sources */,
+				9587532D172CB9D60098A92D /* HackopterSoundEmitter.m in Sources */,
+				9595F5B417333D8B009D0BCA /* HackopterConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +368,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Krzysztof Szczepaniak (WA3D8DBB97)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -221,6 +384,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "08750869-21A8-4421-895B-8735F83C397C";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -232,6 +396,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Krzysztof Szczepaniak (WA3D8DBB97)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -241,6 +406,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "08750869-21A8-4421-895B-8735F83C397C";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -288,6 +454,7 @@
 				955F39EB1724B7C000D0E9D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
